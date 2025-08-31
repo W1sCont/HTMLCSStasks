@@ -1,0 +1,22 @@
+body {
+    font-family: arial;
+    margin: 2%;
+    background-color: #f5f5f5;
+}
+
+pre {
+    font-family: arial;
+    margin: 0;
+}
+
+dt {
+    font-style: italic;
+}
+
+span {
+    color: #5a65c6;
+}
+
+q {
+    color: #8e9daf;
+}
