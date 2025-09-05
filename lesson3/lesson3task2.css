@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7161a7;
+}
+h2 {
+    color: black
+}
+
+ol {
+    list-style-type:upper-roman;
+}
+
+li::marker {
+    color:black;
+}
+
+ul {
+
+    list-style-type: decimal;
+}
+
+.dd_cls {
+    list-style: lower-alpha;
+}
