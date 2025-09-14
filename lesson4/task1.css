@@ -13,11 +13,12 @@ div.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: center;
+  margin: 35px;
+  
 }
 
 div.gallery-item {
-  margin: 10px;
+  margin: 20px;
   border: 1px solid #ccc;
   border-radius: 25px;
   width: 150px;
