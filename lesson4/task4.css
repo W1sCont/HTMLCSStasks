@@ -17,6 +17,7 @@ hr {
 
 ul {
     list-style-type: none;
+    text-align: center;
 }
 
 footer a {
@@ -24,13 +25,16 @@ footer a {
     text-decoration: none;
     color: aliceblue;
     margin-bottom: 10px;
-    float: left;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 footer img {
-    width: 20px;
-    height: 20px;
-    margin: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
 }
 
 .floatleft {
@@ -48,26 +52,27 @@ footer p {
 }
 
 .ulcenter {  
-
+    text-align: left;
+    margin-left: 33%;
+    float: left;
 }
 
 .ulright {
-    padding: 25px;
     float: right;
     margin-right: 75px;
 }
 
 .image-wrapper {
     position: sticky;
-    width: 20px;
-    height: 20px;
-    margin: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
 }
 
 .image-wrapper img {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     transition: opacity 0.3s ease;
 }
 
