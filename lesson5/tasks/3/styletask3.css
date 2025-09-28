@@ -1,0 +1,88 @@
+.block {
+    display: inline-block;
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    transform-origin: center;
+    position: static;
+    overflow: hidden;
+}
+
+.text {
+    text-align: center;
+    display: block;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(174, 201, 201);
+    margin: auto;
+    float: left;
+    transform-origin: center;
+}
+
+.imgblock {
+    display: block;
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    float: right;
+    margin-left: 350px;
+    position: absolute;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-image: url(nice.png);
+    object-fit: cover;
+    transform-origin: center;
+    transform: 0.3s;
+}
+
+p {
+    margin-top: 130px;
+    font-size: 20px;
+}
+
+.block:hover .text {
+    background: rgba(0,0,0,0.5);
+}
+
+.block:hover .img {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.block:hover .text::after,
+.block:hover .img::after {
+  background: rgba(0,0,0,0.5);
+}
+
+.text1::after,
+.img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0); 
+  transition: background 0.3s;
+  z-index: 1;
+}
+
+/* @keyframes imganim {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+} */
+
+/* @keyframes textanim {
+    from {
+        background-color: rgb(174, 201, 201);
+    }
+
+    to {
+        background-color: rgb(6, 61, 61);
+    }
+} */

@@ -1,0 +1,53 @@
+.divbox {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    perspective: 1000px;
+    margin: 50px auto;
+}
+
+.door {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: purple;
+    border: 3px solid rgb(70, 2, 70);
+    top: 0;
+    transition: transform 1s;
+    transform-origin: center;
+}
+
+.openleft {
+    left: 0;
+    transform-origin: left;
+}
+
+
+.openright {
+    right: 0;
+    transform-origin: right;
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+.divbox:hover .openright {
+    transform: rotateY(-60deg);
+}
+
+.divbox:hover .openleft {
+    transform: rotateY(60deg);
+}
+
+.divbox:hover .text1 {
+    opacity: 1;
+}

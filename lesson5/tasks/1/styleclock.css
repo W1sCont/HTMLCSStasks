@@ -1,0 +1,61 @@
+.ring {
+    width: 250px;
+    height: 250px;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+}
+
+.arrow1 {
+    border: 5px solid red;
+    height: 0px;
+    width: 100px;
+    margin-top: 123px;
+    margin-left: 15px;
+    position: absolute;
+    transform-origin: 113px;
+    transform: rotate(-90deg);
+    animation: arrow_1 60s linear infinite ;
+}
+
+.arrow2 {
+    border: 5px solid red;
+    height: 0px;
+    width: 50px;
+    margin-top: 123px;
+    margin-left: 65px;
+    position: absolute;
+    transform-origin: 63px;
+    transform: rotate(90deg);
+    animation: arrow_2 180s linear infinite;
+}
+
+.dot {
+    border: 5px solid red;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    margin-left: 120px;
+    margin-top: 120px;
+    background-color: red;
+    position: absolute;
+    
+}
+
+@keyframes arrow_1 {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+} 
+    
+@keyframes arrow_2 {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+} 
