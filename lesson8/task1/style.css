@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6;
+    padding: 20px;
+}
+
+.container {
+    columns: 3;
+    column-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #f5f5f5;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 350px;
+}
+
+.placeholder {
+    background-color: #D3D3D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.card:nth-child(1) .placeholder {
+    height: 150px;
+}
+
+.card:nth-child(2) .placeholder {
+    height: 220px;
+}
+
+.card:nth-child(3) .placeholder {
+    height: 100px;
+}
+
+.card:nth-child(4) .placeholder {
+    height: 100px;
+}
+
+.card:nth-child(5) .placeholder {
+    height: 230px;
+}
+
+.card:nth-child(6) .placeholder {
+    height: 150px;
+}
+
+.card:nth-child(7) .placeholder {
+    height: 100px;
+}
+
+.card:nth-child(8) .placeholder {
+    height: 350px;
+}
+
+.card:nth-child(9) .placeholder {
+    height: 150px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        columns: 2;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        columns: 1;
+    }
+}

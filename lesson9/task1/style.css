@@ -1,0 +1,89 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.main {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    border: 2px black;
+    border-radius: 10px;
+    background-color: #9fcdcd;
+    margin: 100px;
+    overflow: hidden;
+}
+
+.main img {
+    width: 320px;
+    height: 320px;
+    margin-top: 140px;
+    margin-left: 30px;
+}
+
+.title {
+    display: flex;
+    color: #f4f1e9;
+    background-color: #db6423;
+    width: 400px;
+    height: 40px;
+    margin-left: -20px;
+    padding-left: 50px;
+    padding-bottom: 12px;
+    margin-top: 20px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.card_number {
+    margin: 90px 30px 5px 30px;
+    color: #657c8a;
+}
+
+.card_number input{
+    background-color: #a9d2d2;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 270px;
+    height: 40px;
+    color: #84a7a7;
+}
+
+.name_on_card {
+    margin: 0 0 0 30px;
+    color: #657c8a;
+}
+
+.name_on_card input {
+    background-color: #a9d2d2;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 270px;
+    height: 40px;
+    color: #84a7a7;
+}
+
+.column_3 {
+    margin: 10px 0 0 20px;
+    display: flex;
+    color: #657c8a;
+}
+
+.column_3 p {
+    margin-left: 10px;
+}
+
+.column_3 input {
+    background-color: #a9d2d2;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+    color: #84a7a7;
+}
+

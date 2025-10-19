@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="/index.html">
+            <label for="inpt">
+                <div class="input_tets">
+                <h2>Input</h2>
+                <input type="text" placeholder="Enter some text" class="i_1">
+                <input type="text" value="valid text" class="i_2">
+                <img src="valid.png" alt="">
+                <input type="text" value="invalid text" class="i_3">
+                <img src="invalid.png" alt="">
+                </div>
+            </label>
+
+            <label for="chckbox">
+                <h2>Check boxes</h2>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox">
+                        <span>Subscribe</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked>
+                        <span>Subscribe</span>
+                    </label>
+                </div>
+
+            </label>
+
+            <label for="rdbnt">
+                <h2>Radio buttons</h2>
+                <div class="radio-group">
+                    <span class="label-text">Gender:</span>
+                    <label class="radio-label">
+                        <input type="radio" name="gender" checked>
+                        <span>Male</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="gender">
+                        <span>Female</span>
+                    </label>
+                </div>
+
+            </label>
+
+            <label for="btn">
+                <h2>Buttons</h2>
+                <div class="btn">
+                    <button class="btn-active">Active</button>
+                    <button class="btn-hover">Hover</button>
+                    <button class="btn-danger">Danger</button>
+                    <button class="btn-danger-hover">Hover</button>
+                    <button class="btn-disabled" disabled>Disabled</button>
+                    <button class="btn-round green">+</button>
+                    <button class="btn-round pink">−</button>
+                </div>
+
+            </label>
+
+            <label for="txtr">
+                <h2>Text area</h2>
+                <textarea name="text" id="" placeholder="Entet some text..."></textarea>
+            </label>
+
+        </form>
+    </div>
+</body>
+
+</html>
